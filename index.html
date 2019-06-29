@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Car History Quiz</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<!--HTML has 3 sections.
+Start section
+Question section
+Final section
+Appropriate button clicked on each page will hide that current section
+Appropriate button clicked on each page will display new section
+Appropriate button clicked on Question page will fill in Question section with new question and answer   -->
+<!--
+II. Content of Quiz
+
+
+Car logos
+https://i.pinimg.com/originals/28/a6/99/28a69987164016eae561e859852d4271.jpg 
+
+add ally-->
+
+<body>
+    <!--Title with its subtitle-->
+    <header>
+        <h1>
+            Car History Quiz
+        </h1>
+        <img src="https://www.classic-recreations.com/wp-content/uploads/2018/04/69mustang_boss429.jpg" alt="Old School Mustang" height="120" width="120"> 
+    </header>
+    <main>
+        <!--Start Section-->
+        <section class='start-section'>
+            <h2>Do you think you're an expert on car History?</h2>
+            <button class='start-button' type="button">
+                <span>startQuiz!</span>
+            </button>
+        </section>
+
+        <!--Question Section-->
+        <section class='question-section'>
+            <div class='question-answer-container'>
+                <!--question container-->
+                <div class='question-container'>
+                    <h3 class='question'>What is generally considered to be the first "pony car"?</h3>
+                </div>
+
+                <!--Answers container-->
+                <div class='answers-container'>
+                    <input class='answer' type="radio" name='answer' value='0' required>Pontiac Firebird<br />
+                    <input class='answer' type="radio" name='answer' value='1' required>Mercury Cougar<br />
+                    <input class='answer' type="radio" name='answer' value='2' required>Ford Mustang<br />
+                    <input class='answer' type="radio" name='answer' value='3' required>Chevrolet Camaro<br />
+                </div>
+            </div>
+
+            <!--Status container-->
+            <div class='status-container'>
+                <!--Question Circle-->
+                <div class='question-circle'>
+                    <p class='question-status'>Question one out of ten</p>
+                </div>
+                <!--Score Circle-->
+                <div class='score-circle'>
+                    <p>Score zero out of ten</p>
+                </div>
+                <!--Submit button-->
+                <button class='submit-button' type="button">
+                    Submit
+                </button>
+            </div>
+        </section>
+
+        <!--Final Section-->
+        <section class='final-section'>
+            <!--final words container-->
+            <div class='final-words-container'>
+                <h3 class='final-words'></h3>
+            </div>
+            <div class='final-question-answer-container'>
+                <!--final score container-->
+                <div class='final-score-container'>
+                    <p>Final Score: ten out of ten</p>
+                </div>
+
+                <!--key answers container-->
+                <div class='key-answers-container'>
+
+                    <!--key answer 1 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>What is generally considered to be the first "pony car"?…</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Ford Mustang</p>
+                    </div>
+
+                    <!--key answer 2 container-->
+                    <div class='key-answer-container 1'>
+                        <p class='key-answer-question'>What was the first Japanese car to be produced in the US?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Honda Accord</p>
+                    </div>
+
+                    <!--key answer 3 container-->
+                    <div class='key-answer-container 2'>
+                        <p class='key-answer-question'>What car sold more than one million units in 1965, setting a record that still stands today?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Chevrolet Impala</p>
+                    </div>
+
+                    <!--key answer 4 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>TWhat was the first car to break the sound barrier?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Thrust SSC</p>
+                    </div>
+
+                    <!--key answer 5 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>What year was the corvette first introduced?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> 1953</p>
+                    </div>
+
+                    <!--key answer 6 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>What was the first car to be mass-produced?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Model T</p>
+                    </div>
+
+                    <!--key answer 7 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>What was the first car launched into space?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> Tesla Roadster</p>
+                    </div>
+
+                    <!--key answer 8 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>To Julienne means...</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> To cut to long thin stripes</p>
+                    </div>
+
+                    <!--key answer 9 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>The inventor of cruise control was?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> A Blind Man</p>
+                    </div>
+
+                    <!--key answer 10 container-->
+                    <div class='key-answer-container'>
+                        <p class='key-answer-question'>How much did the first Ford Mustang cost?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> $2,368</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- final status container-->
+            <div class='final-status-container'>
+                <!--reset button-->
+                <button class='reset-button'>
+                    Try Again
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+
+
+</script>
+<script src="app.js"></script>
+
+</html>
