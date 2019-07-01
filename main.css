@@ -6,7 +6,7 @@ Add
 add submit button (user must click submit button)
 on each quiz page, have 3 small  white circle instead of boxes to inform current position of questions, score, submit on the top of black border
 Start Page has giant bold text in black centered in the first fold of page
-Start Page has big red circle as the button to start underneath the bold text
+Start Page has big green circle as the button to start underneath the bold text
 
 
 
@@ -15,7 +15,7 @@ Background is black
 form has no border
 form has light grey padding
 title has white text
-title is on the top of blue box
+title is on the top of red box
 title has light grey padding
 Question has black box
 multiple choice as a box with white border
@@ -73,7 +73,7 @@ h1 {
     margin-right: 60px;
     margin: 10px;
     margin-bottom: 10px;
-    background-color: blue;
+    background-color: red;
     font-size: 40px;
 }
 
@@ -109,7 +109,7 @@ h2 {
     width: 200px;
     color: white;
     font-size: 20px;
-    background-color: red;
+    background-color: green;
     border: 10px white solid;
     border-radius: 50%;
 }
