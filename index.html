@@ -1,0 +1,86 @@
+<!--HTML has 3 sections.
+Start section
+Question section
+Final section
+Appropriate button clicked on each page will hide that current section
+Appropriate button clicked on each page will display new section
+Appropriate button clicked on Question page will fill in Question section with new question and answer   -->
+<!--
+Contents of Quiz
+10 random car history questions
+old school Mustang img
+corrct/incoorect screen
+submit next question button
+Final Score screen
+Try Again button-->
+<body>
+   <section class="start-page">
+    <header class = "title-banner" role="banner">
+      <h1>Car History Quiz</h1>
+      <img src="https://www.classic-recreations.com/wp-content/uploads/2018/04/69mustang_boss429.jpg" alt="Old School Mustang" height="120" width="120">
+    </header>
+   </section>
+  <main>
+   <!--<section class="start-page">-->
+      <!--Title with its subtitle-->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Car History Quiz</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+ </head>
+   <div class="txt-center">
+      <p class="txt">Test Your Knowledge On Car History!</p>
+      <button id="start-button">Ready,Set,Go To Quiz!</button> 
+   </div>
+   <section id= "results-page" class="hidden">
+    <div class="js-final-results txt-center">
+    </div>
+     <button class="hidden" id="retake-button">Try Again!</button>
+   </section>
+    <div class="row">
+     <div class="col 6">
+      <section class="popup" data-popup="popup-feedback">
+       <div class="popup-inner">
+        <h2 id="txt-feedback">
+        </h2>
+       </div>
+      </section>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-6">
+      <div id="my-quiz" class="question hidden">
+       <h3 class="js-question-text">
+        <span>(1/10)<!--this should display question number--></span>
+       </h3>
+      <form id="question-form" action="some end server" method="post">
+        <label class="answer">
+          <input type="radio" name="answerChoice" required value="<!--answer choice A-->">
+           <span><!--answer choice A--> </span>
+        </label>
+        <label class="answer">
+          <input type="radio" name="answerChoice" required value="<!--answer choice B-->">
+           <span><!--answer choice B--> </span>
+         </label>
+         <label class="answer">
+          <input type="radio" name="answerChoice" required value="<!--answer choice C-->">
+           <span><!--answer choice C--> </span>
+         </label>
+         <label class="answer">
+           <input type="radio" name="answerChoice" required value="<!--answer choice D-->">
+           <span><!--answer choice D--> </span>
+         </label>
+         <button id="submit-answer" type="submit" data-popup-open="popup-feedback">Next</button>
+      </form>
+      </div>
+      </div>
+     </div>
+  </main>
+   <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="index.js"></script>
+  </body>
+</html>  
