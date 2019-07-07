@@ -1,5 +1,5 @@
 Quiz-App
-Hi! This is my Quiz App. The first major assignment for my Full Stack Developer course at Thinkful.
+Hi! This is my Quiz App link https://vishald1994.github.io/QuizApp-/ The first major assignment for my Full Stack Developer course at Thinkful.
 
 The requirements for the app are:
 
