@@ -5,10 +5,11 @@
 }
 body {
     font-family: 'Arial black', sans-serif;
-    background-color: lightgrey;
-    background: url('https://i.imgur.com/BBum8.jpg');
-    
-  
+    background: url("https://i.imgur.com/tQ8o2is.jpg"); background-size: cover; 
+}
+html {
+  height: 100vh;
+}
 }
 /*header styling*/
 
@@ -269,4 +270,3 @@ h3 {
         font-size: 25px
     }
 }
-
