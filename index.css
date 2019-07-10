@@ -5,8 +5,7 @@
 }
 body {
     font-family: 'Arial black', sans-serif;
-    background: url("https://i.imgur.com/tQ8o2is.jpg"); 
-    background-repeat: no-repeat;
+    background: url("https://i.imgur.com/tQ8o2is.jpg")no-repeat; 
     background-size: cover; 
 }
 html {
