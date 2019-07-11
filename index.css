@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 body {
-  background-image: url("https://i.imgur.com/BBum8.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; 
-    font-family: 'Arial black', sans-serif;
+  .centerImg{background: url("https://i.imgur.com/BBum8.jpg") no-repeat center fixed ghostwhite; 
+background-size: 56%;
 }
 html {
   height: 100vh;
