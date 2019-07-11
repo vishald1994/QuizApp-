@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body {
-  .centerImg{background: url("../https://i.imgur.com/BBum8.jpg") no-repeat center fixed ghostwhite; 
-background-size: 56%;
+background: url("https://i.imgur.com/U0uNtrp.jpg") no-repeat center fixed; 
+background-size: cover;
+height: 100vh
 }
 html {
   height: 100vh;
