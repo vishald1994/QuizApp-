@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Arial black', sans-serif;
-    .centerImg{background: url('"https://i.imgur.com/tQ8o2is.jpg"') no-repeat center fixed ghostwhite; 
+.centerImg{background: url('"https://i.imgur.com/tQ8o2is.jpg"') no-repeat center fixed ghostwhite; 
 background-size: 56%;}
 }
 html {
